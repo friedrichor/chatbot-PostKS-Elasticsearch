@@ -20,10 +20,11 @@ Elasticsearch文档：https://www.elastic.co/guide/cn/elasticsearch/guide/curren
 论文下载网址：https://arxiv.org/abs/1902.04911  
 代码参考：https://github.com/bzantium/Posterior-Knowledge-Selection （github上的这个代码仅适用于英文对话，如果想要改为中文对话的训练，把其中使用glove模型的部分改为相应的中文模型即可，中文的word2vec等都可以）  
 
-其中，word2vec里内容如下所示，因为大于100M了无法从GitHub Desktop上传，去网上找下中文word2vec词向量下载一下就行，这里用glove等等都是可以的，只要代码中路径改一下就行。  
+其中，还有两个文件夹没有上传，因为内存大于100M了无法从GitHub Desktop上传。  
+word2vec里内容如下所示，去网上找下中文word2vec词向量下载一下就行，这里用glove等等都是可以的，只要代码中路径改一下就行。  
 ![BIKO}VH}N)YY6J~JQ3P%_QB](https://user-images.githubusercontent.com/70964199/168311730-257672e6-7c08-4146-a337-9f1b9bd6448b.png)
 
-snapshots中的内容如下所示，同样由于内存过大无法上传，这里存的是训练完的参数，训练后这部分会自动生成。  
+snapshots中的内容如下所示，这里存的是训练完的参数，训练后这部分会自动生成。  
 ![UN6CV2~H~%KQNJJTJ 6CEZN](https://user-images.githubusercontent.com/70964199/168313949-53d618ff-2292-4308-8a45-72e834b4f8d6.png)  
 
 关于运行，搭建好Elasticsearch环境后执行search.py就配置好检索模块了，生成模型运行train.py，演示就执行demo.py，前端是用Tkinter写的。
