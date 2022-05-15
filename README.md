@@ -5,6 +5,9 @@
 
 本项目仅仅是简单的实现，不足之处有很多，因此本项目仅供参考。
 
+总体结构：
+![Uploading image.png…]()
+
 一、检索模块：Elasticsearch + SBERT  
 1. Elasticsearch  
 环境安装可以查看我写的一篇博客，使用的是8.1.2版本：[Elasticsearch环境搭建详细教程](https://blog.csdn.net/Friedrichor/article/details/124371742?spm=1001.2014.3001.5501)  
