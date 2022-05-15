@@ -5,8 +5,9 @@
 
 本项目仅仅是简单的实现，不足之处有很多，因此本项目仅供参考。
 
-总体结构：
-![Uploading image.png…]()
+总体结构：  
+![G APL10GDT)(2PB0BSKA(HF](https://user-images.githubusercontent.com/70964199/168462610-786e830a-ecfa-419e-ba45-70eef9255987.png)
+
 
 一、检索模块：Elasticsearch + SBERT  
 1. Elasticsearch  
